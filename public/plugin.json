@@ -1,0 +1,24 @@
+{
+  "name": "年会抽奖",
+  "version": "0.1.0", 
+  "description": "一个功能完善的年会抽奖工具,支持配置奖项、导入名单、导入照片等功能",
+  "author": "Vito",
+  "homepage": "https://github.com/vitozyf/lucky-draw",
+  "main": "/index.html",
+  "logo": "/logo.png",
+  "preload": "/preload.js",
+  "pluginSetting": {
+    "single": true
+  },
+  "features": [
+    {
+      "code": "lucky-draw",
+      "explain": "年会抽奖",
+      "cmds": [
+        "抽奖",
+        "年会抽奖",
+        "幸运抽奖"
+      ]
+    }
+  ]
+} 

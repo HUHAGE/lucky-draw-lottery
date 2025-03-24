@@ -2,7 +2,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const path = require('path')
 
 module.exports = {
-  publicPath: './',
+  publicPath: '/',
   // 输出到 dist 目录
   outputDir: 'dist',
   productionSourceMap: false,

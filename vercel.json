@@ -5,9 +5,9 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "buildCommand": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+        "buildCommand": "npm run build",
         "outputDirectory": "dist",
-        "nodeVersion": "18"
+        "nodeVersion": "18.x"
       }
     }
   ],

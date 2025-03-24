@@ -7,7 +7,7 @@
       "config": {
         "buildCommand": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
         "outputDirectory": "dist",
-        "nodeVersion": "16"
+        "nodeVersion": "18"
       }
     }
   ],

@@ -7,11 +7,12 @@
     "node": "18.x"
   },
   "scripts": {
-    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
-    "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
+    "serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
     "build:plugin": "npm run build && node scripts/build-plugin.js",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "postinstall": "yarn upgrade caniuse-lite browserslist"
   },
   "dependencies": {
     "core-js": "^3.4.3",

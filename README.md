@@ -1,5 +1,6 @@
 # uTools 年会抽奖插件
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/fcafa33d-9832-4980-8144-11d25d95f5b4)
+
 
 
 一个功能完善的年会抽奖工具,支持以下功能:
